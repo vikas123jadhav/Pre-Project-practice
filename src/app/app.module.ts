@@ -24,7 +24,6 @@ import { StaticpagesModule } from './staticpages/staticpages.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, 
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
@@ -33,6 +32,7 @@ import { StaticpagesModule } from './staticpages/staticpages.module';
     ArticlesModule,
     StaticpagesModule,
     
+    AppRoutingModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
